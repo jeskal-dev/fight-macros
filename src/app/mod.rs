@@ -16,7 +16,7 @@ impl FightMacrosApp {
     pub async fn new() -> Result<Self> {
         ConfigHandler::init_global_config().await?;
 
-        let event_processor = EventProcessor::new().await?;
+        let event_processor = EventProcessor::new()?;
         let lifecycle_manager = LifecycleManager::new();
 
         Ok(Self {
