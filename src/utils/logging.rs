@@ -1,13 +1,17 @@
 use anyhow::Result;
 use env_logger::Builder;
 
-pub fn init_logging() -> Result<()> {
-    Builder::new()
-        .filter_level(log::LevelFilter::Info)
-        .format_timestamp_secs()
-        .init();
+pub struct Logger;
 
-    log::info!("Logging initialized");
+impl Logger {
+    pub fn init_logging() -> Result<()> {
+        Builder::new()
+            .filter_level(log::LevelFilter::Info)
+            .format_timestamp_secs()
+            .init();
 
-    Ok(())
+        log::info!("Logging initialized");
+
+        Ok(())
+    }
 }

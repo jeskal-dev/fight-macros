@@ -12,4 +12,5 @@ rdev = "0.5.3"
 serde = { version = "1.0.219", features = ["derive"] }
 serde_json = "1.0.140"
 tokio = { version = "1.46.1", features = ["full"] }
+tokio-util = "0.7.15"
 win-hotkey = "0.3.0"

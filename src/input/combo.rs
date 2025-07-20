@@ -23,20 +23,4 @@ impl KeyState {
             _ => {}
         }
     }
-
-    // pub fn matches(&self, combo: &KeyCombination) -> bool {
-    //     let base: Key = helpers::str_to_key(&combo.key);
-    //     if !self.pressed.contains(&base) {
-    //         return false;
-    //     }
-
-    //     for m in &combo.modifiers {
-    //         let k = helpers::mod_to_key(m);
-    //         if !self.pressed.contains(&k) {
-    //             return false;
-    //         }
-    //     }
-
-    //     true
-    // }
 }
