@@ -14,3 +14,6 @@ serde_json = "1.0.140"
 tokio = { version = "1.46.1", features = ["full"] }
 tokio-util = "0.7.15"
 win-hotkey = "0.3.0"
+strum = { version = "0.27.2", features = ["derive"] }
+eframe = { version = "0.32.0", features = ["wgpu"] }
+egui_extras = { version = "0.32.0", features = ["all_loaders"] }

@@ -1,6 +1,6 @@
 {
-  "profiles": {
-    "General (Default)": {
+  "profiles": [
+    {
       "name": "General (Default)",
       "switch_key": "F1",
       "macros": [
@@ -11,15 +11,42 @@
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -29,15 +56,42 @@
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -47,21 +101,51 @@
             "key": "W"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "I" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 30.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "delay", "ms": 30.0 },
-            { "type": "keyup", "key": "Z" },
-            { "type": "keyup", "key": "I" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 30.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 30.0
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            },
+            {
+              "type": "keyup",
+              "key": "I"
+            }
           ]
         }
       ]
     },
-    "Ryu (Smash Ultimate)": {
+    {
       "name": "Ryu (Smash Ultimate)",
       "switch_key": "F2",
       "macros": [
@@ -72,15 +156,42 @@
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -90,15 +201,42 @@
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -108,120 +246,337 @@
             "key": "W"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "I" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 30.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "delay", "ms": 30.0 },
-            { "type": "keyup", "key": "Z" },
-            { "type": "keyup", "key": "I" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 30.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 30.0
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            },
+            {
+              "type": "keyup",
+              "key": "I"
+            }
           ]
         },
         {
           "name": "Strong Up Tilt",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "W"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "I" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "I" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Strong Left Tilt",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Strong Right Tilt",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Shokuretsu Left",
           "trigger": {
-            "modifiers": ["shift"],
+            "modifiers": [
+              "shift"
+            ],
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Shokuretsu Right",
           "trigger": {
-            "modifiers": ["shift"],
+            "modifiers": [
+              "shift"
+            ],
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -231,21 +586,66 @@
             "key": "U"
           },
           "sequence": [
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "K" }
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            }
           ]
         },
         {
@@ -255,26 +655,71 @@
             "key": "O"
           },
           "sequence": [
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "K" }
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            }
           ]
         }
       ]
     },
-    "Ken (Smash Ultimate)": {
+    {
       "name": "Ken (Smash Ultimate)",
       "switch_key": "F3",
       "macros": [
@@ -285,15 +730,42 @@
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -303,15 +775,42 @@
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -321,125 +820,357 @@
             "key": "W"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "I" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "I" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Strong Up Tilt",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "W"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "I" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "I" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Nata Otoshi Geri Right",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "K" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Nata Otoshi Geri Left",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "K" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Shokuretsu Left",
           "trigger": {
-            "modifiers": ["shift"],
+            "modifiers": [
+              "shift"
+            ],
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
           "name": "Shokuretsu Right",
           "trigger": {
-            "modifiers": ["shift"],
+            "modifiers": [
+              "shift"
+            ],
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -449,21 +1180,66 @@
             "key": "U"
           },
           "sequence": [
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "K" }
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            }
           ]
         },
         {
@@ -473,26 +1249,71 @@
             "key": "O"
           },
           "sequence": [
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "K" }
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            }
           ]
         }
       ]
     },
-    "Terry (Smash Ultimate)": {
+    {
       "name": "Terry (Smash Ultimate)",
       "switch_key": "F4",
       "macros": [
@@ -503,15 +1324,42 @@
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -521,15 +1369,42 @@
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "Z" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            }
           ]
         },
         {
@@ -539,80 +1414,227 @@
             "key": "W"
           },
           "sequence": [
-            { "type": "keydown", "key": "Z" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "I" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 30.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "delay", "ms": 30.0 },
-            { "type": "keyup", "key": "Z" },
-            { "type": "keyup", "key": "I" }
+            {
+              "type": "keydown",
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 30.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 30.0
+            },
+            {
+              "type": "keyup",
+              "key": "Z"
+            },
+            {
+              "type": "keyup",
+              "key": "I"
+            }
           ]
         },
         {
           "name": "Rising Tackle",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "W"
           },
           "sequence": [
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "I" },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "I" },
-            { "type": "keyup", "key": "D" }
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "I"
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            }
           ]
         },
         {
           "name": "Shoriuken Left",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "Q"
           },
           "sequence": [
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "J" },
-            { "type": "keyup", "key": "K" }
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            }
           ]
         },
         {
           "name": "Shoriuken Right",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "E"
           },
           "sequence": [
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 100.0 },
-            { "type": "keyup", "key": "D" },
-            { "type": "keyup", "key": "L" },
-            { "type": "keyup", "key": "K" }
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 100.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            }
           ]
         },
         {
@@ -622,25 +1644,82 @@
             "key": "U"
           },
           "sequence": [
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 8.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 11.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 11.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "delay", "ms": 6.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 8.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 3.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 8.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "delay", "ms": 1.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 6.0 },
-            { "type": "keyup", "key": "D" }
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 8.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 11.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 11.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 6.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 8.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 3.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 8.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 1.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 6.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            }
           ]
         },
         {
@@ -650,82 +1729,249 @@
             "key": "O"
           },
           "sequence": [
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 8.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 11.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 11.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "delay", "ms": 6.0 },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 8.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 3.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 8.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "delay", "ms": 1.0 },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 6.0 },
-            { "type": "keyup", "key": "D" }
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 8.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 11.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 11.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 6.0
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 8.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 3.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 8.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 1.0
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 6.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            }
           ]
         },
         {
           "name": "Power Geyser Left",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "U"
           },
           "sequence": [
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" }
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            }
           ]
         },
         {
           "name": "Power Geyser Right",
           "trigger": {
-            "modifiers": ["alt"],
+            "modifiers": [
+              "alt"
+            ],
             "key": "O"
           },
           "sequence": [
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "J" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "J" },
-            { "type": "keydown", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "K" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keydown", "key": "L" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "L" },
-            { "type": "keydown", "key": "D" },
-            { "type": "delay", "ms": 10.0 },
-            { "type": "keyup", "key": "D" }
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keydown",
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "ms": 10.0
+            },
+            {
+              "type": "keyup",
+              "key": "D"
+            }
           ]
         }
       ]
+    },
+    {
+      "name": "ggtvvg",
+      "switch_key": "",
+      "macros": []
     }
-  },
-  "active_profile": "General (Default)"
+  ],
+  "active_profile": null
 }
-

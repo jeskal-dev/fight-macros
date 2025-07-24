@@ -2,6 +2,7 @@ mod app;
 mod config;
 mod engine;
 mod input;
+mod ui;
 mod utils;
 
 use anyhow::Result;

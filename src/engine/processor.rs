@@ -58,7 +58,7 @@ impl EventProcessor {
         let mut cfg = CONFIG
             .write()
             .expect("Error al guardar configuración global");
-        cfg.active_profile = name.clone();
+        cfg.active_profile = cfg.profiles.iter().position(|p| p.name == name);
         log::info!("Cambiando perfil a: {}", name);
         Ok(())
     }
