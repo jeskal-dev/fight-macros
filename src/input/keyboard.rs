@@ -46,11 +46,11 @@ impl KeyboardHandler {
             return;
         };
 
-        for (name, profile) in &cfg.profiles {
+        for profile in &cfg.profiles {
             let switch_key = helpers::str_to_key(profile.switch_key.as_str());
 
             if key == switch_key {
-                if let Err(e) = tx.send(HotkeyEvent::ProfileSwitch(name.clone())) {
+                if let Err(e) = tx.send(HotkeyEvent::ProfileSwitch(profile.name.clone())) {
                     log::warn!("Error enviando evento de perfil: {:?}", e);
                 }
                 return;
