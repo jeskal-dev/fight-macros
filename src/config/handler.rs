@@ -7,7 +7,7 @@ use std::{
 use anyhow::{Context, Result};
 use once_cell::sync::Lazy;
 
-use crate::config::types::{Config, Profile};
+use crate::config::types::Config;
 
 const CONFIG_PATH: &str = "config.json";
 
@@ -35,20 +35,6 @@ impl ConfigHandler {
         write(CONFIG_PATH, content).context("No se pudo escribir el archivo de configuración")?;
         log::info!("Configuración guardada");
         Ok(())
-    }
-
-    pub fn save_profiles(profiles: Vec<Profile>) -> Result<Config> {
-        let current_config = CONFIG
-            .read()
-            .expect("Error al guardar configuración global");
-        let new_config = Config {
-            active_profile: current_config.active_profile,
-            profiles,
-        };
-
-        ConfigHandler::save_config(&new_config)?;
-
-        Ok(new_config)
     }
 
     pub async fn init_global_config() -> Result<()> {

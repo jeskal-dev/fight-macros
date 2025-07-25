@@ -27,9 +27,15 @@ pub fn editor_panel(ui: &mut egui::Ui, state: &mut UIState) {
                     if ui.button("➕ Añadir acción").clicked() {
                         commands::add_action(state);
                     }
-                    if ui.button("⏺ Grabar").clicked() {
-                        // TODO: record-macro-sequence()
-                    }
+                    // ui.horizontal(|ui| {
+                    //     if let Some(handle) = &state.recorder {
+                    //         if ui.button("⏹ Parar").clicked() {
+                    //             handle.stop();
+                    //         }
+                    //     } else if ui.button("⏺ Grabar").clicked() {
+                    //         commands::start_recording(state, Some(rdev::Key::Escape));
+                    //     }
+                    // });
                 });
             });
             ui.separator();

@@ -7,6 +7,8 @@ pub struct UIState {
     pub active_profile: Option<usize>,
     pub current_macro: Option<usize>,
     pub modal: Modal,
+    pub modal_open: bool,
+    pub picking_switch_key: Option<usize>,
 }
 
 impl UIState {
@@ -17,6 +19,8 @@ impl UIState {
             active_profile,
             current_macro: None,
             modal: Modal::default(),
+            modal_open: false,
+            picking_switch_key: None,
         }
     }
 }

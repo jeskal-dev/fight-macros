@@ -18,6 +18,7 @@ impl eframe::App for UIState {
             modal_layer(ctx, self);
         });
 
+        // commands::poll_recording_result(ctx, self);
         sync_config(self);
     }
 }

@@ -37,9 +37,9 @@ pub fn macros_panel(ui: &mut egui::Ui, state: &mut UIState) {
                 ui.add_space(12.0);
                 ui.label("Activar con:");
                 if ui.button(&profile.switch_key).clicked() {
-                    // TODO: update-profile-switch-key()
+                    state.picking_switch_key = Some(p_idx);
                 }
-
+                key_picker_modal(ui.ctx(), state, p_idx);
                 ui.add_space(12.0);
                 ui.label("Activar");
                 let mut on = state.active_profile == state.current_profile;
@@ -67,7 +67,7 @@ pub fn macros_panel(ui: &mut egui::Ui, state: &mut UIState) {
 
     egui::SidePanel::left("macros_list")
         .resizable(true)
-        .default_width(260.0)
+        .default_width(300.0)
         .show_inside(ui, |ui| {
             ui.add_space(6.0);
             ui.vertical(|ui| {
@@ -122,7 +122,6 @@ fn macros_scroll(ui: &mut egui::Ui, idx: usize, state: &mut UIState) {
         }
     });
 
-    // Fuera del loop y del préstamo de `profile`:
     if let Some(i) = clicked_idx {
         commands::set_current_macro(state, i);
     }
@@ -130,7 +129,9 @@ fn macros_scroll(ui: &mut egui::Ui, idx: usize, state: &mut UIState) {
         commands::remove_macro(state, i);
     }
     if let Some(i) = open_modal {
+        state.modal_open = true;
         state.modal = Modal::TriggerEditor(i);
+        state.current_macro = Some(i);
     }
 }
 
@@ -150,7 +151,11 @@ pub fn modal_layer(ctx: &egui::Context, state: &mut UIState) {
         let macro_ = &mut state.profiles[p_idx].macros[m_idx];
 
         Window::new("Definir trigger")
-            .open(&mut true)
+            .open(&mut state.modal_open)
+            .collapsible(true)
+            .resizable(true)
+            .anchor(egui::Align2::CENTER_CENTER, egui::vec2(0.0, 0.0))
+            .max_width(300.0)
             .show(ctx, |ui| {
                 ui.label("Presiona la combinación deseada y luego Aceptar");
                 ui.horizontal(|ui| {
@@ -165,9 +170,11 @@ pub fn modal_layer(ctx: &egui::Context, state: &mut UIState) {
                     checkbox(ui, &mut macro_.trigger.modifiers, ModifierKey::Meta, "Meta");
                 });
                 ui.text_edit_singleline(&mut macro_.trigger.key);
-                if ui.button("Aceptar").clicked() {
-                    state.modal = Modal::None;
-                }
+                ui.vertical_centered(|ui| {
+                    if ui.button("Aceptar").clicked() {
+                        state.modal = Modal::None;
+                    }
+                })
             });
     }
 }
@@ -211,4 +218,42 @@ fn macro_row(
             }
         });
     });
+}
+
+fn key_picker_modal(ctx: &egui::Context, state: &mut UIState, p_idx: usize) {
+    if state.picking_switch_key != Some(p_idx) {
+        return;
+    }
+
+    egui::Window::new("Seleccionar tecla de activación")
+        .collapsible(true)
+        .resizable(true)
+        .anchor(egui::Align2::CENTER_CENTER, egui::vec2(0.0, 0.0))
+        .show(ctx, |ui| {
+            ui.vertical(|ui| {
+                ui.label("Elige una tecla F:");
+                ui.add_space(8.0);
+
+                // 3 columnas × 4 filas
+                egui::Grid::new("f_keys_grid")
+                    .min_col_width(50.0)
+                    .spacing(egui::vec2(6.0, 6.0))
+                    .show(ui, |ui| {
+                        for n in 1..=12 {
+                            if ui.button(format!("F{n}")).clicked() {
+                                state.profiles[p_idx].switch_key = format!("F{n}");
+                                state.picking_switch_key = None;
+                            }
+                            if n % 3 == 0 {
+                                ui.end_row();
+                            }
+                        }
+                    });
+
+                ui.add_space(8.0);
+                if ui.button("Cancelar").clicked() {
+                    state.picking_switch_key = None;
+                }
+            });
+        });
 }

@@ -122,3 +122,32 @@ pub fn remove_action(state: &mut UIState, idx: usize) {
     };
     state.profiles[p_idx].macros[m_idx].sequence.remove(idx);
 }
+
+// pub fn start_recording(state: &mut UIState, stop_key: Option<Key>) {
+//     let (handle, rx) = record_sequence(stop_key);
+//     state.recorder = Some(handle);
+//     *state.recording_future.lock().unwrap() = Some(rx);
+// }
+
+// pub fn poll_recording_result(ctx: &egui::Context, state: &mut UIState) {
+//     let mut guard = state.recording_future.lock().unwrap();
+//     let Some(mut rx) = guard.take() else { return };
+
+//     match rx.try_recv() {
+//         Ok(seq) => {
+//             if let (Some(p_idx), Some(m_idx)) = (state.active_profile, state.current_macro) {
+//                 state.profiles[p_idx].macros[m_idx].sequence = seq;
+//                  sync_config(state);
+//             }
+//             state.recorder = None;
+//         }
+//         Err(oneshot::error::TryRecvError::Empty) => {
+//             // Aún no terminó → devolver al estado
+//             *guard = Some(rx);
+//             ctx.request_repaint(); // seguir comprobando
+//         }
+//         Err(oneshot::error::TryRecvError::Closed) => {
+//             state.recorder = None;
+//         }
+//     }
+// }
