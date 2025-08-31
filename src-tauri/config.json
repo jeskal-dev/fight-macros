@@ -1,0 +1,2413 @@
+{
+  "profiles": [
+    {
+      "id": 3,
+      "name": "Ken (SSBU)",
+      "functionKey": "F3",
+      "macros": [
+        {
+          "id": 14,
+          "name": "Left Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "Q"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 146,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 147,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 148,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 149,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 150,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 151,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 152,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 153,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 154,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Right Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "E"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 155,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 156,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 157,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 158,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 159,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 160,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 161,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 162,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 163,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Up Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "W"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 164,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 165,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 166,
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "id": 167,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 168,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 169,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 170,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 171,
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "id": 172,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Strong Up Tilt",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "W"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 173,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 174,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 175,
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "id": 176,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 177,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 178,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 179,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 180,
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "id": 181,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Nata Otoshi Geri Right",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "E"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 182,
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "id": 183,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 184,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 185,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 186,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 187,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 188,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 189,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 190,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 191,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 192,
+              "key": "K"
+            },
+            {
+              "type": "keyup",
+              "id": 193,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Nata Otoshi Geri Left",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "Q"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 194,
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "id": 195,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 196,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 197,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 198,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 199,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 200,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 201,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 202,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 203,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 204,
+              "key": "K"
+            },
+            {
+              "type": "keyup",
+              "id": 205,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Shokuretsu Left",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "U"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 206,
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "id": 207,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 208,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 209,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 210,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 211,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 212,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 213,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 214,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 215,
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "id": 216,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 217,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 218,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 219,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 220,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 221,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Shokuretsu Right",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "O"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 222,
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "id": 223,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 224,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 225,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 226,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 227,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 228,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 229,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 230,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 231,
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "id": 232,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 233,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 234,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 235,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 236,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 237,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Shoriuken Left",
+          "trigger": {
+            "modifiers": [],
+            "key": "U"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 238,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 239,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 240,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 241,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 242,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 243,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 244,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 245,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 246,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 247,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 248,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 249,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 250,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 251,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 252,
+              "key": "K"
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Shoriuken Right",
+          "trigger": {
+            "modifiers": [],
+            "key": "O"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 253,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 254,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 255,
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "id": 256,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 257,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 258,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 259,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 260,
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "id": 261,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 262,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 263,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 264,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 265,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 266,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 267,
+              "key": "K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "General (Default)",
+      "functionKey": "F1",
+      "macros": [
+        {
+          "id": 1,
+          "name": "Left Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "Q"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 1,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 2,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 3,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 4,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 5,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 6,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 7,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 8,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 9,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Right Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "E"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 10,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 11,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 12,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 13,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 14,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 15,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 16,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 17,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 18,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Up Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "W"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 19,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 20,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 21,
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "id": 22,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 23,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 24,
+              "ms": 30
+            },
+            {
+              "type": "keyup",
+              "id": 25,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 26,
+              "ms": 30
+            },
+            {
+              "type": "keyup",
+              "id": 27,
+              "key": "Z"
+            },
+            {
+              "type": "keyup",
+              "id": 28,
+              "key": "I"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Terry (SSBU)",
+      "functionKey": "F4",
+      "macros": [
+        {
+          "id": 24,
+          "name": "Left Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "Q"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 268,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 269,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 270,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 271,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 272,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 273,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 274,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 275,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 276,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Right Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "E"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 277,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 278,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 279,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 280,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 281,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 282,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 283,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 284,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 285,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Up Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "W"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 286,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 287,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 288,
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "id": 289,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 290,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 291,
+              "ms": 30
+            },
+            {
+              "type": "keyup",
+              "id": 292,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 293,
+              "ms": 30
+            },
+            {
+              "type": "keyup",
+              "id": 294,
+              "key": "Z"
+            },
+            {
+              "type": "keyup",
+              "id": 295,
+              "key": "I"
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Rising Tackle",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "W"
+          },
+          "sequence": [
+            {
+              "type": "keyup",
+              "id": 296,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 297,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 298,
+              "key": "I"
+            },
+            {
+              "type": "keydown",
+              "id": 299,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 300,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 301,
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "id": 302,
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Shoriuken Left",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "Q"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 303,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 304,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 305,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 306,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 307,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 308,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 309,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 310,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 311,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 312,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 313,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 314,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 315,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 316,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 317,
+              "key": "K"
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Shoriuken Right",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "E"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 318,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 319,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 320,
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "id": 321,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 322,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 325,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 324,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 326,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 327,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 328,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 329,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 330,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 323,
+              "key": "K"
+            },
+            {
+              "type": "keyup",
+              "id": 331,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 332,
+              "key": "K"
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Buster Wolf Left",
+          "trigger": {
+            "modifiers": [],
+            "key": "U"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 333,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 334,
+              "ms": 8
+            },
+            {
+              "type": "keyup",
+              "id": 335,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 336,
+              "ms": 11
+            },
+            {
+              "type": "keydown",
+              "id": 337,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 338,
+              "ms": 11
+            },
+            {
+              "type": "keyup",
+              "id": 339,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 340,
+              "ms": 6
+            },
+            {
+              "type": "keydown",
+              "id": 341,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 342,
+              "ms": 8
+            },
+            {
+              "type": "keydown",
+              "id": 343,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 344,
+              "ms": 3
+            },
+            {
+              "type": "keyup",
+              "id": 345,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 346,
+              "ms": 8
+            },
+            {
+              "type": "keyup",
+              "id": 347,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 348,
+              "ms": 1
+            },
+            {
+              "type": "keydown",
+              "id": 349,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 350,
+              "ms": 6
+            },
+            {
+              "type": "keyup",
+              "id": 351,
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Buster Wolf Right",
+          "trigger": {
+            "modifiers": [],
+            "key": "O"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 352,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 353,
+              "ms": 8
+            },
+            {
+              "type": "keyup",
+              "id": 354,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 355,
+              "ms": 11
+            },
+            {
+              "type": "keydown",
+              "id": 356,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 357,
+              "ms": 11
+            },
+            {
+              "type": "keyup",
+              "id": 358,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 359,
+              "ms": 6
+            },
+            {
+              "type": "keydown",
+              "id": 360,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 361,
+              "ms": 8
+            },
+            {
+              "type": "keydown",
+              "id": 362,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 363,
+              "ms": 3
+            },
+            {
+              "type": "keyup",
+              "id": 364,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 365,
+              "ms": 8
+            },
+            {
+              "type": "keyup",
+              "id": 366,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 367,
+              "ms": 1
+            },
+            {
+              "type": "keydown",
+              "id": 368,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 369,
+              "ms": 6
+            },
+            {
+              "type": "keyup",
+              "id": 370,
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Power Geyser Left",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "U"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 371,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 372,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 373,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 374,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 375,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 376,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 377,
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "id": 378,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 379,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 380,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 381,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 382,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 383,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 384,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 385,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 386,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 387,
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Power Geyser Right",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "O"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 388,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 389,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 390,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 391,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 392,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 393,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 394,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 395,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 396,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 397,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 398,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 399,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 400,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 401,
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "id": 402,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 403,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 404,
+              "key": "D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ryu (SSBU)",
+      "functionKey": "F2",
+      "macros": [
+        {
+          "id": 4,
+          "name": "Left Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "Q"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 29,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 30,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 31,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 32,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 33,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 34,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 35,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 36,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 37,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Right Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "E"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 38,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 39,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 40,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 41,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 42,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 43,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 44,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 45,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 46,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Up Tilt",
+          "trigger": {
+            "modifiers": [],
+            "key": "W"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 47,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 48,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 49,
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "id": 50,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 51,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 52,
+              "ms": 30
+            },
+            {
+              "type": "keyup",
+              "id": 53,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 54,
+              "ms": 30
+            },
+            {
+              "type": "keyup",
+              "id": 55,
+              "key": "Z"
+            },
+            {
+              "type": "keyup",
+              "id": 56,
+              "key": "I"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Strong Up Tilt",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "W"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 57,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 58,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 59,
+              "key": "I"
+            },
+            {
+              "type": "delay",
+              "id": 60,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 61,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 62,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 63,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 64,
+              "key": "I"
+            },
+            {
+              "type": "keyup",
+              "id": 65,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Strong Left Tilt",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "Q"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 66,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 67,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 68,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 69,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 70,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 71,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 72,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 73,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 74,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Strong Right Tilt",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "E"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 75,
+              "key": "Z"
+            },
+            {
+              "type": "delay",
+              "id": 76,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 77,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 78,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 79,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 80,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 81,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 82,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 83,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Shokuretsu Left",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "U"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 84,
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "id": 85,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 86,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 87,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 88,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 89,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 90,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 91,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 92,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 93,
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "id": 94,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 95,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 96,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 97,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 98,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 99,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Shokuretsu Right",
+          "trigger": {
+            "modifiers": [
+              "Alt"
+            ],
+            "key": "O"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 100,
+              "key": "Z"
+            },
+            {
+              "type": "keydown",
+              "id": 101,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 102,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 103,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 104,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 105,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 106,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 107,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 108,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 109,
+              "key": "K"
+            },
+            {
+              "type": "keydown",
+              "id": 110,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 111,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 112,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 113,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 114,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 115,
+              "key": "Z"
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Shoriuken Left",
+          "trigger": {
+            "modifiers": [],
+            "key": "U"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 116,
+              "key": "J"
+            },
+            {
+              "type": "delay",
+              "id": 117,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 118,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 119,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 120,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 121,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 122,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 123,
+              "key": "J"
+            },
+            {
+              "type": "keydown",
+              "id": 124,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 125,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 126,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 127,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 128,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 129,
+              "key": "J"
+            },
+            {
+              "type": "keyup",
+              "id": 130,
+              "key": "K"
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Shoriuken Right",
+          "trigger": {
+            "modifiers": [],
+            "key": "O"
+          },
+          "sequence": [
+            {
+              "type": "keydown",
+              "id": 131,
+              "key": "L"
+            },
+            {
+              "type": "delay",
+              "id": 132,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 133,
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "id": 134,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 135,
+              "ms": 10
+            },
+            {
+              "type": "keyup",
+              "id": 136,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 137,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 138,
+              "key": "L"
+            },
+            {
+              "type": "keydown",
+              "id": 139,
+              "key": "K"
+            },
+            {
+              "type": "delay",
+              "id": 140,
+              "ms": 10
+            },
+            {
+              "type": "keydown",
+              "id": 141,
+              "key": "D"
+            },
+            {
+              "type": "delay",
+              "id": 142,
+              "ms": 100
+            },
+            {
+              "type": "keyup",
+              "id": 143,
+              "key": "D"
+            },
+            {
+              "type": "keyup",
+              "id": 144,
+              "key": "L"
+            },
+            {
+              "type": "keyup",
+              "id": 145,
+              "key": "K"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "selectedProfileId": 1
+}
