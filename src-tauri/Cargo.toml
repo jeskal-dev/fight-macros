@@ -1,0 +1,46 @@
+[package]
+name = "fight-macros"
+version = "0.1.0"
+description = "A Tauri App"
+authors = ["you"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+# The `_lib` suffix may seem redundant but it is necessary
+# to make the lib name unique and wouldn't conflict with the bin name.
+# This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
+name = "fight_macros_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon", "image-png"] }
+tauri-plugin-opener = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ts-rs = { version = "11.0.1", features = ["serde-compat"] }
+strum = { version = "0.27.2", features = ["derive"] }
+anyhow = "1.0.98"
+rdev = { version = "0.5.3", features = ["unstable_grab"] }
+phf = { version = "0.12.1", features = ["macros"] }
+notify = { version = "8.2.0" }
+tracing = "0.1.41"
+parking_lot = "0.12.4"
+crossbeam = "0.8.4"
+ahash = "0.8.12"
+crossbeam-channel = "0.5.15"
+threadpool = "1.8.1"
+num_cpus = "1.17.0"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
+winapi = "0.3.9"
+
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "z"
+strip = true

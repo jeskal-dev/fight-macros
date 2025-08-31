@@ -1,0 +1,1 @@
+export type Extend<T, R> = T extends R ? T & R : never;
